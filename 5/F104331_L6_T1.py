@@ -14,7 +14,7 @@
 """
 import sys
 
-def fibonacci(nth_number, fibo_list={}):
+def fibonacci( nth_number, fibo_list={} ):
     if nth_number == 0:
         return []
     elif nth_number == 1:
@@ -24,7 +24,7 @@ def fibonacci(nth_number, fibo_list={}):
     elif nth_number in fibo_list:
         return fibo_list[nth_number]
     else:
-        current_num = fibonacci(nth_number-1, fibo_list) + [fibonacci(nth_number-1, fibo_list)[-1] + fibonacci(nth_number-2, fibo_list)[-1]]
+        current_num = fibonacci( nth_number-1, fibo_list ) + [fibonacci(nth_number-1, fibo_list)[-1] + fibonacci(nth_number-2, fibo_list)[-1]]
         fibo_list[nth_number] = current_num
         
         return current_num
