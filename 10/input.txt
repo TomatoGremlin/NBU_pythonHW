@@ -1,0 +1,8 @@
+Hello, world!
+This is an example text file.
+It contains random lines of text.
+Each line is separated by a newline character.
+Sorting this file will arrange the lines alphabetically.
+The sorted lines will be written to the output file.
+Make sure to specify the correct file paths when running the program.
+Feel free to modify this text or add more lines for testing purposes.
